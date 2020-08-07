@@ -1,0 +1,11 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir="LR";
+  Node1 [label="cHwSPImaster",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_s_p_imaster.html",tooltip="Abstract class supporting the SPI hardware in master mode. "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="cHwSPImaster_0",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_s_p_imaster__0.html",tooltip="Implementation of SPI hardware in master mode. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="cHwSPImaster_1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_s_p_imaster__1.html",tooltip="Implementation of SPI hardware in master mode. "];
+}

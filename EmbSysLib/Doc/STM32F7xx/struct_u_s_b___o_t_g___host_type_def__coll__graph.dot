@@ -1,0 +1,6 @@
+digraph "USB_OTG_HostTypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{USB_OTG_HostTypeDef\n|+ HCFG\l+ HFIR\l+ HFNUM\l+ Reserved40C\l+ HPTXSTS\l+ HAINT\l+ HAINTMSK\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

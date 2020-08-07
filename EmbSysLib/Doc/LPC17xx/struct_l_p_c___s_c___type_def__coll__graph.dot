@@ -1,0 +1,6 @@
+digraph "LPC_SC_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_SC_TypeDef\n|+ FLASHCFG\l+ RESERVED0\l+ PLL0CON\l+ PLL0CFG\l+ PLL0STAT\l+ PLL0FEED\l+ RESERVED1\l+ PLL1CON\l+ PLL1CFG\l+ PLL1STAT\land 26 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

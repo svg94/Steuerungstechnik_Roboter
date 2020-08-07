@@ -1,0 +1,27 @@
+digraph "Proto"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{Proto\n|+ CommonHeader\l+ numparams\l+ is_vararg\l+ maxstacksize\l+ sizeupvalues\l+ sizek\l+ sizecode\l+ sizelineinfo\l+ sizep\l+ sizelocvars\l+ linedefined\l+ lastlinedefined\l+ code\l+ lineinfo\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +k" ,arrowhead="odiamond",fontname="Sans"];
+  Node2 [label="{lua_TValue\n|+ TValuefields\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlua___t_value.html"];
+  Node1 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +p" ,arrowhead="odiamond",fontname="Sans"];
+  Node3 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +locvars" ,arrowhead="odiamond",fontname="Sans"];
+  Node3 [label="{LocVar\n|+ startpc\l+ endpc\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_loc_var.html"];
+  Node4 -> Node3 [color="grey25",fontsize="8",style="solid",label=" +varname" ,arrowhead="odiamond",fontname="Sans"];
+  Node4 [label="{TString\n|+ CommonHeader\l+ extra\l+ shrlen\l+ hash\l+ lnglen\l+ u\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_t_string.html"];
+  Node4 -> Node4 [color="grey25",fontsize="8",style="solid",label=" +hnext" ,arrowhead="odiamond",fontname="Sans"];
+  Node4 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +source" ,arrowhead="odiamond",fontname="Sans"];
+  Node5 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +cache" ,arrowhead="odiamond",fontname="Sans"];
+  Node5 [label="{LClosure\n|+ ClosureHeader\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_l_closure.html"];
+  Node6 -> Node5 [color="grey25",fontsize="8",style="solid",label=" +upvals" ,arrowhead="odiamond",fontname="Sans"];
+  Node6 [label="{UpVal\n|+ refcount\l+ touched\l+ open\l+ u\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_up_val.html"];
+  Node6 -> Node6 [color="grey25",fontsize="8",style="solid",label=" +next" ,arrowhead="odiamond",fontname="Sans"];
+  Node2 -> Node6 [color="grey25",fontsize="8",style="solid",label=" +value\n+v" ,arrowhead="odiamond",fontname="Sans"];
+  Node1 -> Node5 [color="grey25",fontsize="8",style="solid",label=" +p" ,arrowhead="odiamond",fontname="Sans"];
+  Node7 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +gclist" ,arrowhead="odiamond",fontname="Sans"];
+  Node7 [label="{GCObject\n|+ CommonHeader\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_g_c_object.html"];
+  Node8 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +upvalues" ,arrowhead="odiamond",fontname="Sans"];
+  Node8 [label="{Upvaldesc\n|+ instack\l+ idx\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_upvaldesc.html"];
+  Node4 -> Node8 [color="grey25",fontsize="8",style="solid",label=" +name" ,arrowhead="odiamond",fontname="Sans"];
+}

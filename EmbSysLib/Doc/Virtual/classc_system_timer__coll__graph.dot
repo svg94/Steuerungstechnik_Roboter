@@ -1,0 +1,8 @@
+digraph "cSystemTimer"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{cSystemTimer\n|+ rest\l+ id\l+ idCnt\l|+ cSystemTimer()\l+ run()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +tPtr" ,arrowhead="odiamond",fontname="Sans"];
+  Node2 [label="{cHwTimer\n|# cycleTime\l|+ getCycleTime()\l+ add()\l+ enablePWM()\l+ setPWM()\l+ isrHandler()\l# cHwTimer()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_timer.html",tooltip="Abstract class supporting timer hardware. "];
+}

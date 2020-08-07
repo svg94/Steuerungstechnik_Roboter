@@ -1,0 +1,6 @@
+digraph "libusb_endpoint_descriptor"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{libusb_endpoint_descriptor\n|+ bLength\l+ bDescriptorType\l+ bEndpointAddress\l+ bmAttributes\l+ wMaxPacketSize\l+ bInterval\l+ bRefresh\l+ bSynchAddress\l+ extra\l+ extra_length\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

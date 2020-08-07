@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir="LR";
+  Node1 [label="cDevControlPointer\l::cData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_dev_control_pointer_1_1c_data.html"];
+}

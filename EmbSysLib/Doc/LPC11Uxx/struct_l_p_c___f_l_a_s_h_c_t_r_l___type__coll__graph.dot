@@ -1,0 +1,6 @@
+digraph "LPC_FLASHCTRL_Type"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_FLASHCTRL_Type\n|+ RESERVED0\l+ FLASHCFG\l+ RESERVED1\l+ FMSSTART\l+ FMSSTOP\l+ RESERVED2\l+ FMSW0\l+ FMSW1\l+ FMSW2\l+ FMSW3\l+ RESERVED3\l+ FMSTAT\l+ RESERVED4\l+ FMSTATCLR\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

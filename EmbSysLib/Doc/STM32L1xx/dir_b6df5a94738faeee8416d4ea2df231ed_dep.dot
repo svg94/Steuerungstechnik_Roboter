@@ -1,0 +1,14 @@
+digraph "Src/Com/Device/Control" {
+  compound=true
+  node [ fontsize="8", fontname="Sans"];
+  edge [ labelfontsize="8", labelfontname="Sans"];
+  subgraph clusterdir_2a558d16df89988b4c6c11cfefbb84e6 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Device" fontname="Sans", fontsize="8", URL="dir_2a558d16df89988b4c6c11cfefbb84e6.html"]
+  dir_b6df5a94738faeee8416d4ea2df231ed [shape=box, label="Control", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b6df5a94738faeee8416d4ea2df231ed.html"];
+  }
+  dir_29f4e3bfd8240ce7bca12dff6b06edb8 [shape=box label="Hardware" fillcolor="white" style="filled" color="red" URL="dir_29f4e3bfd8240ce7bca12dff6b06edb8.html"];
+  dir_3831b991dccef12bfcdceca69c46be61 [shape=box label="Digital" URL="dir_3831b991dccef12bfcdceca69c46be61.html"];
+  dir_b6df5a94738faeee8416d4ea2df231ed->dir_29f4e3bfd8240ce7bca12dff6b06edb8 [headlabel="1", labeldistance=1.5 headhref="dir_000004_000009.html"];
+  dir_b6df5a94738faeee8416d4ea2df231ed->dir_3831b991dccef12bfcdceca69c46be61 [headlabel="1", labeldistance=1.5 headhref="dir_000004_000005.html"];
+  dir_3831b991dccef12bfcdceca69c46be61->dir_29f4e3bfd8240ce7bca12dff6b06edb8 [headlabel="1", labeldistance=1.5 headhref="dir_000005_000009.html"];
+}

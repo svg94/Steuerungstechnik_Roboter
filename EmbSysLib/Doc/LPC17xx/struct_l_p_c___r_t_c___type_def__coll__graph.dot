@@ -1,0 +1,6 @@
+digraph "LPC_RTC_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_RTC_TypeDef\n|+ ILR\l+ RESERVED0\l+ CCR\l+ RESERVED1\l+ CIIR\l+ RESERVED2\l+ AMR\l+ RESERVED3\l+ CTIME0\l+ CTIME1\land 43 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

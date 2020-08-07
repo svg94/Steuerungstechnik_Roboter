@@ -1,0 +1,27 @@
+digraph "Src/MCU/Virtual/Sys/UDPclient.h"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="Src/MCU/Virtual/Sys\l/UDPclient.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="Src/MCU/Virtual/Src\l/UART_MCU.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_u_a_r_t___m_c_u_8h.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="Src/MCU/Virtual/MCU.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_c_u_8h.html",tooltip="Include controller specific header files. "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node4 [label="Src/lib.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$lib_8h.html",tooltip="Library main include file. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node5 [label="Src/MCU/Virtual/Src\l/Touch_MCU.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_touch___m_c_u_8h_source.html"];
+  Node5 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node6 [label="Src/MCU/Virtual/Src\l/ADC_MCU.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_a_d_c___m_c_u_8h_source.html"];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node7 [label="Src/MCU/Virtual/Src\l/DAC_MCU.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_d_a_c___m_c_u_8h_source.html"];
+  Node7 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node8 [label="Src/MCU/Virtual/Src\l/Disp_MCU.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_disp___m_c_u_8h_source.html"];
+  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node9 [label="Src/MCU/Virtual/Src\l/DispChar_MCU.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_disp_char___m_c_u_8h_source.html"];
+  Node9 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+}

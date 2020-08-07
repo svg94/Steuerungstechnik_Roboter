@@ -1,0 +1,17 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir="LR";
+  Node1 [label="cHwMemory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_memory.html",tooltip="Abstract class supporting non volatile memory. "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="cHwEEPROM_24C256",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_e_e_p_r_o_m__24_c256.html",tooltip="Implementation of EEPROM 24C256. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="cHwMemory_EEPROM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_memory___e_e_p_r_o_m.html",tooltip="Implementation of the EEPROM as a cHwMemory class. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node4 [label="cHwMemory_Flash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_memory___flash.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node5 [label="cHwMemory_RAM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_memory___r_a_m.html",tooltip="Implementation of the battery buffered RAM. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node6 [label="cHwRAM_PCF8583",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_r_a_m___p_c_f8583.html",tooltip="Implementation of battery buffered RAM PCF8583. "];
+}

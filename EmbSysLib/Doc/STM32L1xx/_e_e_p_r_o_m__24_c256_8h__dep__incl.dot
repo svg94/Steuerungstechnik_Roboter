@@ -1,0 +1,8 @@
+digraph "Src/Peripheral/EEPROM_24C256.h"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="Src/Peripheral/EEPROM\l_24C256.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="Src/Peripheral/EEPROM\l_24C256.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_e_e_p_r_o_m__24_c256_8cpp.html"];
+}

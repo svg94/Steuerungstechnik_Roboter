@@ -1,0 +1,12 @@
+digraph "Src/MCU/LPC17xx/Sys/LPC17xx.h"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="Src/MCU/LPC17xx/Sys\l/LPC17xx.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="core_cm3.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node3 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="system_LPC17xx.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$system___l_p_c17xx_8h.html",tooltip="CMSIS Cortex-M3 Device System Header File for NXP LPC17xx Device Series. "];
+  Node3 -> Node4 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node4 [label="stdint.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir="LR";
+  Node1 [label="cHwUART_MCU::Data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_u_a_r_t___m_c_u_1_1_data.html"];
+}

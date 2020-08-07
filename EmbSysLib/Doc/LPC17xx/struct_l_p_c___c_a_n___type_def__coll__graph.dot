@@ -1,0 +1,6 @@
+digraph "LPC_CAN_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_CAN_TypeDef\n|+ MOD\l+ CMR\l+ GSR\l+ ICR\l+ IER\l+ BTR\l+ EWL\l+ SR\l+ RFS\l+ RID\land 14 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

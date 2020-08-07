@@ -1,0 +1,6 @@
+digraph "LPC_ADC_Type"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_ADC_Type\n|+ CR\l+ GDR\l+ RESERVED0\l+ INTEN\l+ DR\l+ DR0\l+ DR1\l+ DR2\l+ DR3\l+ DR4\l+ DR5\l+ DR6\l+ DR7\l+ @33\l+ STAT\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

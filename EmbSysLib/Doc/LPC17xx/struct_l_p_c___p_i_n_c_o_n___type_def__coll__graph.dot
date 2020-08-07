@@ -1,0 +1,6 @@
+digraph "LPC_PINCON_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_PINCON_TypeDef\n|+ PINSEL0\l+ PINSEL1\l+ PINSEL2\l+ PINSEL3\l+ PINSEL4\l+ PINSEL5\l+ PINSEL6\l+ PINSEL7\l+ PINSEL8\l+ PINSEL9\land 18 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

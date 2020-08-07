@@ -1,0 +1,19 @@
+digraph "cNetDHCP_Data"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{cNetDHCP_Data\n|+ op\l+ htype\l+ hlen\l+ hops\l+ chAddr\l+ sname\l+ bfile\l+ options\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +flags\n+secs" ,arrowhead="odiamond",fontname="Sans"];
+  Node2 [label="{cNetTYPE\< WORD \>\n|+ data\l|+ operator=()\l+ operator WORD()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_net_t_y_p_e.html"];
+  Node3 -> Node2 [dir="back",color="orange",fontsize="8",style="solid",label=" \< WORD \>" ,fontname="Sans"];
+  Node3 [label="{cNetTYPE\< T \>\n||+ operator=()\l+ operator T()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_net_t_y_p_e.html"];
+  Node4 -> Node3 [color="grey25",fontsize="8",style="solid",label=" +data" ,arrowhead="odiamond",fontname="Sans"];
+  Node4 [label="{T\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +ciAddr\n+siAddr\n+yiAddr\n+giAddr" ,arrowhead="odiamond",fontname="Sans"];
+  Node5 [label="{cNetAddr\< 4 \>\n|+ addr\l|+ operator==()\l+ operator=()\l+ operator=()\l+ operator=()\l+ operator char *()\l+ operator DWORD()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_net_addr.html"];
+  Node6 -> Node5 [dir="back",color="orange",fontsize="8",style="solid",label=" \< 4 \>" ,fontname="Sans"];
+  Node6 [label="{cNetAddr\< size \>\n|+ addr\l|+ operator==()\l+ operator=()\l+ operator=()\l+ operator char *()\l+ operator=()\l+ operator DWORD()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_net_addr.html"];
+  Node7 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +xid" ,arrowhead="odiamond",fontname="Sans"];
+  Node7 [label="{cNetTYPE\< DWORD \>\n|+ data\l|+ operator=()\l+ operator DWORD()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_net_t_y_p_e.html"];
+  Node3 -> Node7 [dir="back",color="orange",fontsize="8",style="solid",label=" \< DWORD \>" ,fontname="Sans"];
+}

@@ -1,0 +1,14 @@
+digraph "Src/MCU/STM32L1xx/Src/SPImaster_MCU.cpp"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="Src/MCU/STM32L1xx/Src\l/SPImaster_MCU.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="SPImaster_MCU.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_s_p_imaster___m_c_u_8h.html"];
+  Node2 -> Node3 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="Com/Hardware/SPI/SPImaster.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_s_p_imaster_8h.html"];
+  Node3 -> Node4 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node4 [label="Com/Hardware/Port/Port.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_port_8h.html"];
+  Node1 -> Node5 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node5 [label="../Sys/PinConfig.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_pin_config_8h.html"];
+}

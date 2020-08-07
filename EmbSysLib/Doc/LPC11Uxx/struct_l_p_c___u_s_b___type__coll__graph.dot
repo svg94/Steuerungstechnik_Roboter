@@ -1,0 +1,6 @@
+digraph "LPC_USB_Type"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_USB_Type\n|+ DEVCMDSTAT\l+ INFO\l+ EPLISTSTART\l+ DATABUFSTART\l+ LPM\l+ EPSKIP\l+ EPINUSE\l+ EPBUFCFG\l+ INTSTAT\l+ INTEN\l+ INTSETSTAT\l+ INTROUTING\l+ RESERVED0\l+ EPTOGGLE\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

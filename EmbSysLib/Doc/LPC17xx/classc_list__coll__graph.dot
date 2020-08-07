@@ -1,0 +1,6 @@
+digraph "cList"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{cList\n||+ cList()\l+ add()\l+ updateAll()\l+ getFirst()\l+ operator[]()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

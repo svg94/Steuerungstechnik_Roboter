@@ -1,0 +1,8 @@
+digraph "Src/Com/Device/Control/devControlPointer.h"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="Src/Com/Device/Control\l/devControlPointer.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="Com/Hardware/Display\l/Touch.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_touch_8h.html"];
+}

@@ -1,0 +1,11 @@
+digraph "Src/MCU/STM32F7xx/Src" {
+  compound=true
+  node [ fontsize="8", fontname="Sans"];
+  edge [ labelfontsize="8", labelfontname="Sans"];
+  subgraph clusterdir_b77c033deeca566f0847c68c68cc5034 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="STM32F7xx" fontname="Sans", fontsize="8", URL="dir_b77c033deeca566f0847c68c68cc5034.html"]
+  dir_1b447feb80553055b4e150da51ea04dd [shape=box, label="Src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1b447feb80553055b4e150da51ea04dd.html"];
+  }
+  dir_bd6076192d431881978bb9a63bffcd65 [shape=box label="Com" fillcolor="white" style="filled" color="red" URL="dir_bd6076192d431881978bb9a63bffcd65.html"];
+  dir_1b447feb80553055b4e150da51ea04dd->dir_bd6076192d431881978bb9a63bffcd65 [headlabel="8", labeldistance=1.5 headhref="dir_000028_000001.html"];
+}

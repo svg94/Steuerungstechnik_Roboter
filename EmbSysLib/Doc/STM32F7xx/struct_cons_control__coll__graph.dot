@@ -1,0 +1,8 @@
+digraph "ConsControl"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{ConsControl\n|+ nh\l+ na\l+ tostore\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +t\n+v" ,arrowhead="odiamond",fontname="Sans"];
+  Node2 [label="{expdesc\n|+ k\l+ ival\l+ nval\l+ info\l+ idx\l+ t\l+ vt\l+ ind\l+ u\l+ t\l+ f\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structexpdesc.html"];
+}

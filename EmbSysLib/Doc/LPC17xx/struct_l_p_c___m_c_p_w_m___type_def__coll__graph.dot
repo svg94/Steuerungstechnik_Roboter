@@ -1,0 +1,6 @@
+digraph "LPC_MCPWM_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_MCPWM_TypeDef\n|+ MCCON\l+ MCCON_SET\l+ MCCON_CLR\l+ MCCAPCON\l+ MCCAPCON_SET\l+ MCCAPCON_CLR\l+ MCTIM0\l+ MCTIM1\l+ MCTIM2\l+ MCPER0\land 20 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

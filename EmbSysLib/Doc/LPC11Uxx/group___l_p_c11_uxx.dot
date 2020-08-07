@@ -1,0 +1,13 @@
+digraph "LPC11Uxx"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir=LR;
+  Node3 [label="Device_Peripheral_Registers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___device___peripheral___registers.html"];
+  Node1 [label="NXP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___n_x_p.html"];
+  Node0 [label="LPC11Uxx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 [label="Configuration_of_CMSIS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___configuration__of___c_m_s_i_s.html"];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+}

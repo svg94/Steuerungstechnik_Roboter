@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['sck0_5fp0_5f10',['SCK0_P0_10',['../classc_hw_pin_config.html#aa2752346feb41936825ddc3ab460c925ab9d7bc3f588db691050d8e78ad988750',1,'cHwPinConfig']]],
+  ['sck0_5fp0_5f6',['SCK0_P0_6',['../classc_hw_pin_config.html#aa2752346feb41936825ddc3ab460c925a61fad319381ed0ff9d57cdb5582392d4',1,'cHwPinConfig']]],
+  ['sck0_5fp1_5f29',['SCK0_P1_29',['../classc_hw_pin_config.html#aa2752346feb41936825ddc3ab460c925a148b8acfe2c2b1b4e7af8a7e22755c34',1,'cHwPinConfig']]],
+  ['sck1_5fp1_5f15',['SCK1_P1_15',['../classc_hw_pin_config.html#aa2752346feb41936825ddc3ab460c925a436e8832dc88189d69f205f8aafec672',1,'cHwPinConfig']]],
+  ['sck1_5fp1_5f20',['SCK1_P1_20',['../classc_hw_pin_config.html#aa2752346feb41936825ddc3ab460c925ab1c95eb2fb50ca241b8ba1e9d700b019',1,'cHwPinConfig']]],
+  ['scl_5fp0_5f4',['SCL_P0_4',['../classc_hw_pin_config.html#aa2752346feb41936825ddc3ab460c925ad774cc0a9644a37a82b2b953c0318b14',1,'cHwPinConfig']]],
+  ['sclk_5fp0_5f17',['SCLK_P0_17',['../classc_hw_pin_config.html#aa2752346feb41936825ddc3ab460c925a4b793021cb57e4b42dc97ede0caea850',1,'cHwPinConfig']]],
+  ['sclk_5fp1_5f28',['SCLK_P1_28',['../classc_hw_pin_config.html#aa2752346feb41936825ddc3ab460c925a5a096a07ff4d667e8374535e835e36b8',1,'cHwPinConfig']]],
+  ['sda_5fp0_5f5',['SDA_P0_5',['../classc_hw_pin_config.html#aa2752346feb41936825ddc3ab460c925a36befc088f3c84457e0fa2039791907f',1,'cHwPinConfig']]],
+  ['small',['SMALL',['../classc_c_r_c.html#a6f4a0c27cf764777e07bbb75349cf1cea5ec9347a4ff56db811bb109256875eea',1,'cCRC']]],
+  ['ssel0_5fp0_5f2',['SSEL0_P0_2',['../classc_hw_pin_config.html#aa2752346feb41936825ddc3ab460c925a2133dbc5d2a51bc5b45c9dccbc66a0f4',1,'cHwPinConfig']]],
+  ['ssel1_5fp1_5f19',['SSEL1_P1_19',['../classc_hw_pin_config.html#aa2752346feb41936825ddc3ab460c925a55ec1060fae1f7daccfac40a6b313df4',1,'cHwPinConfig']]],
+  ['ssel1_5fp1_5f23',['SSEL1_P1_23',['../classc_hw_pin_config.html#aa2752346feb41936825ddc3ab460c925ad03ef8c6900d94e15a0311687858ad2a',1,'cHwPinConfig']]],
+  ['ssp0_5firqn',['SSP0_IRQn',['../group___l_p_c11_uxx.html#gga7e1129cd8a196f4284d41db3e82ad5c8a6c8d6262fd7ecedc57b2fe9209be9765',1,'LPC11Uxx.h']]],
+  ['ssp1_5firqn',['SSP1_IRQn',['../group___l_p_c11_uxx.html#gga7e1129cd8a196f4284d41db3e82ad5c8adcc0cfa46f0d13c2de0f3e826c10a789',1,'LPC11Uxx.h']]],
+  ['storage_5fclass',['STORAGE_CLASS',['../classc_hw_u_s_bdesc.html#a623c249cda4d9d0409a71c7956f770afa35ad58f253f02b2ce7598b1d4c3e5347',1,'cHwUSBdesc']]],
+  ['svcall_5firqn',['SVCall_IRQn',['../group___l_p_c11_uxx.html#gga7e1129cd8a196f4284d41db3e82ad5c8a4ce820b3cc6cf3a796b41aadc0cf1237',1,'LPC11Uxx.h']]],
+  ['systick_5firqn',['SysTick_IRQn',['../group___l_p_c11_uxx.html#gga7e1129cd8a196f4284d41db3e82ad5c8a6dbff8f8543325f3474cbae2446776e7',1,'LPC11Uxx.h']]]
+];

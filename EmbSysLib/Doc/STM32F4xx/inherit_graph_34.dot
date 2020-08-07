@@ -1,0 +1,11 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir="LR";
+  Node1 [label="cHwI2Cmaster",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_i2_cmaster.html",tooltip="Abstract class supporting the I2C hardware in master mode. "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="cHwI2Cmaster_Emul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_i2_cmaster___emul.html",tooltip="Implementation of the I2C interface in master mode. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="cHwI2Cmaster_N",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_i2_cmaster___n.html",tooltip="Implementation of the I2C interface in master mode. "];
+}

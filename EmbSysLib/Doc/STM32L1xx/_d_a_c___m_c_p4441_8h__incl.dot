@@ -1,0 +1,10 @@
+digraph "Src/Peripheral/DAC_MCP4441.h"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="Src/Peripheral/DAC\l_MCP4441.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="Com/Hardware//DAC.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node3 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="Com/Hardware//I2Cmaster.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

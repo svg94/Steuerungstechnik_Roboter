@@ -1,0 +1,9 @@
+digraph "Peripheral_registers_structures"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir=LR;
+  Node1 [label="Stm32l1xx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__stm32l1xx.html"];
+  Node0 [label="Peripheral_registers\l_structures",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+}

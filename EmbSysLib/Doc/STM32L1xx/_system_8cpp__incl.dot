@@ -1,0 +1,16 @@
+digraph "Src/MCU/STM32L1xx/Sys/System.cpp"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="Src/MCU/STM32L1xx/Sys\l/System.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="MCU/System.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_system_8h.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="stm32l1xx.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_s_t_m32_l1xx_8h.html",tooltip="CMSIS Cortex-M3 Device Peripheral Access Layer Header File. This file contains all the peripheral reg..."];
+  Node3 -> Node4 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node4 [label="core_cm3.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 -> Node5 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node5 [label="system_stm32l1xx.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$system__stm32l1xx_8h.html",tooltip="CMSIS Cortex-M3 Device Peripheral Access Layer System Header File. "];
+  Node3 -> Node6 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node6 [label="stdint.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

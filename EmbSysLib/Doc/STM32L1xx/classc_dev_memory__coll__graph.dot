@@ -1,0 +1,6 @@
+digraph "cDevMemory"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{cDevMemory\n||+ cDevMemory()\l+ allocate()\l+ write()\l+ read()\l+ clear()\l+ setValid()\l+ isValid()\l+ isFlash()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir="LR";
+  Node1 [label="cPageDescriptor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_page_descriptor.html"];
+}

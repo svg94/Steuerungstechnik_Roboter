@@ -1,0 +1,6 @@
+digraph "LPC_UART1_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_UART1_TypeDef\n|+ RBR\l+ THR\l+ DLL\l+ RESERVED0\l+ @54\l+ DLM\l+ IER\l+ @56\l+ IIR\l+ FCR\land 22 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir="LR";
+  Node1 [label="cHwI2Cslave::DataHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_i2_cslave_1_1_data_handler.html",tooltip="Abstract class as interface to cHwI2Cslave. "];
+}

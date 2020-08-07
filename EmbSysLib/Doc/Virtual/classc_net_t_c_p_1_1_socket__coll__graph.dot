@@ -1,0 +1,28 @@
+digraph "cNetTCP::Socket"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{cNetTCP::Socket\n||+ Socket()\l+ open()\l+ close()\l+ isConnected()\l+ isReady()\l+ clear()\l+ fillBuffer()\l+ send()\l+ get()\l+ getDataPtr()\land 6 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
+  Node2 [label="{cNetWinTransport::Socket\n|# s\l# aSocket\l# w\l# isServerFlag\l# isConnectedFlag\l|+ Socket()\l+ open()\l+ close()\l+ process()\l+ update()\l+ timeout()\l+ isConnected()\l+ isReady()\l+ isServer()\l+ clear()\l+ getDataPtr()\l+ setDataLength()\l+ send()\l+ get()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_net_win_transport_1_1_socket.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
+  Node3 [label="{cNetTransport::Socket\n|# timeOutTic\l# state\l# isServerFlag\l|+ Socket()\l+ open()\l+ openDefault()\l+ close()\l+ isConnected()\l+ isReady()\l+ getRemoteIP()\l+ clear()\l+ getDataPtr()\l+ setDataLength()\land 9 more...\l# setTimeout()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_net_transport_1_1_socket.html"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
+  Node4 [label="{cList::Item\n||+ Item()\l+ getNext()\l+ getPrev()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_list_1_1_item.html",tooltip="Base class for list items. "];
+  Node5 -> Node3 [color="grey25",fontsize="8",style="solid",label=" #remotePort\n#myPort" ,arrowhead="odiamond",fontname="Sans"];
+  Node5 [label="{cNetTYPE\< WORD \>\n|+ data\l|+ operator=()\l+ operator WORD()\l}",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classc_net_t_y_p_e.html"];
+  Node6 -> Node3 [color="grey25",fontsize="8",style="solid",label=" #app" ,arrowhead="odiamond",fontname="Sans"];
+  Node6 [label="{cNetApplication\n||+ cNetApplication()\l# setTimeout()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_net_application.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
+  Node7 -> Node3 [color="grey25",fontsize="8",style="solid",label=" #addrPhy" ,arrowhead="odiamond",fontname="Sans"];
+  Node7 [label="{cNetAddr\< 6 \>\n|+ addr\l|+ operator==()\l+ operator=()\l+ operator=()\l+ operator=()\l+ operator char *()\l+ operator DWORD()\l}",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classc_net_addr.html"];
+  Node8 -> Node3 [color="grey25",fontsize="8",style="solid",label=" #addr\n#remoteAddr" ,arrowhead="odiamond",fontname="Sans"];
+  Node8 [label="{cNetAddr\< 4 \>\n|+ addr\l|+ operator==()\l+ operator=()\l+ operator=()\l+ operator=()\l+ operator char *()\l+ operator DWORD()\l}",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classc_net_addr.html"];
+  Node9 -> Node2 [color="grey25",fontsize="8",style="solid",label=" #transport" ,arrowhead="odiamond",fontname="Sans"];
+  Node9 [label="{cNetWinTransport\n||+ cNetWinTransport()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_net_win_transport.html"];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
+  Node10 [label="{cNetTransport\n||+ process()\l+ update()\l+ timeout()\l+ getAddr()\l+ getAddrPhy()\l# cNetTransport()\l}",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classc_net_transport.html"];
+  Node11 -> Node9 [color="grey25",fontsize="8",style="solid",label=" +net" ,arrowhead="odiamond",fontname="Sans"];
+  Node11 [label="{cNetWin\n|+ buf\l+ bufLen\l+ bufIdx\l+ timeTic\l+ bufSize\l|+ cNetWin()\l+ update()\l+ getIP()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_net_win.html"];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
+}

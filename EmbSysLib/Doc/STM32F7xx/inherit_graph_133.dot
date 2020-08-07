@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir="LR";
+  Node1 [label="FMC_Bank3_TypeDef",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_f_m_c___bank3___type_def.html",tooltip="Flexible Memory Controller Bank3. "];
+}

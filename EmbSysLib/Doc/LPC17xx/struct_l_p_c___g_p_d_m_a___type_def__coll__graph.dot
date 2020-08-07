@@ -1,0 +1,6 @@
+digraph "LPC_GPDMA_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_GPDMA_TypeDef\n|+ DMACIntStat\l+ DMACIntTCStat\l+ DMACIntTCClear\l+ DMACIntErrStat\l+ DMACIntErrClr\l+ DMACRawIntTCStat\l+ DMACRawIntErrStat\l+ DMACEnbldChns\l+ DMACSoftBReq\l+ DMACSoftSReq\l+ DMACSoftLBReq\l+ DMACSoftLSReq\l+ DMACConfig\l+ DMACSync\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

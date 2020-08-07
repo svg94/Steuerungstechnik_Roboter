@@ -1,0 +1,9 @@
+digraph "Src/Com/Hardware/SPI/SPIslave.cpp"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="Src/Com/Hardware/SPI\l/SPIslave.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="SPIslave.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_s_p_islave_8h.html"];
+  Node2 -> Node2 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+}

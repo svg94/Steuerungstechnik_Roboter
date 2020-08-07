@@ -1,0 +1,8 @@
+digraph "cHwMemory_Flash"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{cHwMemory_Flash\n|# ptr\l|+ cHwMemory_Flash()\l+ lock()\l+ unlock()\l+ writeByte()\l+ readByte()\l+ clear()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
+  Node2 [label="{cHwMemory\n|# size\l# def\l# isFlashFlag\l|+ unlock()\l+ lock()\l+ write()\l+ read()\l+ clear()\l+ getSize()\l+ isFlash()\l# cHwMemory()\l# writeByte()\l# readByte()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_memory.html",tooltip="Abstract class supporting non volatile memory. "];
+}

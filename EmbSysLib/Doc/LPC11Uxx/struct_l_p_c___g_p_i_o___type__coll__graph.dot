@@ -1,0 +1,6 @@
+digraph "LPC_GPIO_Type"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_GPIO_Type\n|+ B0\l+ B1\l+ B\l+ @41\l+ RESERVED0\l+ W0\l+ W1\l+ W\l+ @43\l+ RESERVED1\land 13 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

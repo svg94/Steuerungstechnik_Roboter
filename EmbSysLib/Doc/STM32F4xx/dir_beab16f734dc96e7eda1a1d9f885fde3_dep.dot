@@ -1,0 +1,18 @@
+digraph "Src/MCU/STM32F4xx" {
+  compound=true
+  node [ fontsize="8", fontname="Sans"];
+  edge [ labelfontsize="8", labelfontname="Sans"];
+  subgraph clusterdir_9c07b6f6cc004f3a3b80dfa585542b38 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MCU" fontname="Sans", fontsize="8", URL="dir_9c07b6f6cc004f3a3b80dfa585542b38.html"]
+  subgraph clusterdir_beab16f734dc96e7eda1a1d9f885fde3 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_beab16f734dc96e7eda1a1d9f885fde3.html"];
+    dir_beab16f734dc96e7eda1a1d9f885fde3 [shape=plaintext label="STM32F4xx"];
+    dir_1b3df8e4718d54251af635545215e545 [shape=box label="Src" color="black" fillcolor="white" style="filled" URL="dir_1b3df8e4718d54251af635545215e545.html"];
+    dir_007a3c7edecfdfb7986408b44848d052 [shape=box label="Sys" color="black" fillcolor="white" style="filled" URL="dir_007a3c7edecfdfb7986408b44848d052.html"];
+  }
+  }
+  dir_bd6076192d431881978bb9a63bffcd65 [shape=box label="Com" fillcolor="white" style="filled" color="red" URL="dir_bd6076192d431881978bb9a63bffcd65.html"];
+  dir_1b3df8e4718d54251af635545215e545->dir_bd6076192d431881978bb9a63bffcd65 [headlabel="12", labeldistance=1.5 headhref="dir_000028_000001.html"];
+  dir_beab16f734dc96e7eda1a1d9f885fde3->dir_1b3df8e4718d54251af635545215e545 [headlabel="26", labeldistance=1.5 headhref="dir_000027_000028.html"];
+  dir_beab16f734dc96e7eda1a1d9f885fde3->dir_007a3c7edecfdfb7986408b44848d052 [headlabel="5", labeldistance=1.5 headhref="dir_000027_000029.html"];
+}

@@ -1,0 +1,6 @@
+digraph "LPC_I2S_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_I2S_TypeDef\n|+ I2SDAO\l+ I2SDAI\l+ I2STXFIFO\l+ I2SRXFIFO\l+ I2SSTATE\l+ I2SDMA1\l+ I2SDMA2\l+ I2SIRQ\l+ I2STXRATE\l+ I2SRXRATE\l+ I2STXBITRATE\l+ I2SRXBITRATE\l+ I2STXMODE\l+ I2SRXMODE\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

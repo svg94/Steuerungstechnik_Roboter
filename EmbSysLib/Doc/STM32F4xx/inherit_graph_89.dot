@@ -1,0 +1,11 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir="LR";
+  Node1 [label="cNetTransport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_net_transport.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="cNetTCP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_net_t_c_p.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="cNetUDP",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_net_u_d_p.html"];
+}

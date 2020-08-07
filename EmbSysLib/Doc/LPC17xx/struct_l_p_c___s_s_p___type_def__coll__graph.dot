@@ -1,0 +1,6 @@
+digraph "LPC_SSP_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_SSP_TypeDef\n|+ CR0\l+ CR1\l+ DR\l+ SR\l+ CPSR\l+ IMSC\l+ RIS\l+ MIS\l+ ICR\l+ DMACR\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

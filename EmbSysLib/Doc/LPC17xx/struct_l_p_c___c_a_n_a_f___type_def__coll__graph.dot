@@ -1,0 +1,6 @@
+digraph "LPC_CANAF_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_CANAF_TypeDef\n|+ AFMR\l+ SFF_sa\l+ SFF_GRP_sa\l+ EFF_sa\l+ EFF_GRP_sa\l+ ENDofTable\l+ LUTerrAd\l+ LUTerr\l+ FCANIE\l+ FCANIC0\l+ FCANIC1\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

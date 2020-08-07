@@ -1,0 +1,8 @@
+digraph "cHwI2Cmaster_N"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{cHwI2Cmaster_N\n||+ cHwI2Cmaster_N()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
+  Node2 [label="{cHwI2Cmaster\n|# isHardwareOK\l# maskIntr\l|# cHwI2Cmaster()\l# write()\l# read()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_i2_cmaster.html",tooltip="Abstract class supporting the I2C hardware in master mode. "];
+}

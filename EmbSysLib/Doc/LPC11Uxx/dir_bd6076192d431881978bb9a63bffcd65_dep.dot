@@ -1,0 +1,23 @@
+digraph "Src/Com" {
+  compound=true
+  node [ fontsize="8", fontname="Sans"];
+  edge [ labelfontsize="8", labelfontname="Sans"];
+  subgraph clusterdir_413f4e031a85da0d68269c6fd2f76e1c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Src" fontname="Sans", fontsize="8", URL="dir_413f4e031a85da0d68269c6fd2f76e1c.html"]
+  subgraph clusterdir_bd6076192d431881978bb9a63bffcd65 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_bd6076192d431881978bb9a63bffcd65.html"];
+    dir_bd6076192d431881978bb9a63bffcd65 [shape=plaintext label="Com"];
+    dir_2a558d16df89988b4c6c11cfefbb84e6 [shape=box label="Device" color="red" fillcolor="white" style="filled" URL="dir_2a558d16df89988b4c6c11cfefbb84e6.html"];
+    dir_29f4e3bfd8240ce7bca12dff6b06edb8 [shape=box label="Hardware" color="red" fillcolor="white" style="filled" URL="dir_29f4e3bfd8240ce7bca12dff6b06edb8.html"];
+    dir_c8ac64408d68c845cbd2b74da1aeacd9 [shape=box label="Std" color="black" fillcolor="white" style="filled" URL="dir_c8ac64408d68c845cbd2b74da1aeacd9.html"];
+    dir_1d2a3280d2a630a6729d9039989dfb31 [shape=box label="Task" color="black" fillcolor="white" style="filled" URL="dir_1d2a3280d2a630a6729d9039989dfb31.html"];
+  }
+  }
+  dir_9c07b6f6cc004f3a3b80dfa585542b38 [shape=box label="MCU" fillcolor="white" style="filled" color="red" URL="dir_9c07b6f6cc004f3a3b80dfa585542b38.html"];
+  dir_29f4e3bfd8240ce7bca12dff6b06edb8->dir_9c07b6f6cc004f3a3b80dfa585542b38 [headlabel="1", labeldistance=1.5 headhref="dir_000009_000026.html"];
+  dir_29f4e3bfd8240ce7bca12dff6b06edb8->dir_c8ac64408d68c845cbd2b74da1aeacd9 [headlabel="7", labeldistance=1.5 headhref="dir_000009_000021.html"];
+  dir_2a558d16df89988b4c6c11cfefbb84e6->dir_29f4e3bfd8240ce7bca12dff6b06edb8 [headlabel="8", labeldistance=1.5 headhref="dir_000002_000009.html"];
+  dir_1d2a3280d2a630a6729d9039989dfb31->dir_c8ac64408d68c845cbd2b74da1aeacd9 [headlabel="2", labeldistance=1.5 headhref="dir_000025_000021.html"];
+  dir_9c07b6f6cc004f3a3b80dfa585542b38->dir_29f4e3bfd8240ce7bca12dff6b06edb8 [headlabel="7", labeldistance=1.5 headhref="dir_000026_000009.html"];
+  dir_c8ac64408d68c845cbd2b74da1aeacd9->dir_9c07b6f6cc004f3a3b80dfa585542b38 [headlabel="1", labeldistance=1.5 headhref="dir_000021_000026.html"];
+}

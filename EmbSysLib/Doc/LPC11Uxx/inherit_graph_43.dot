@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir="LR";
+  Node1 [label="cHwRTC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_r_t_c.html",tooltip="Abstract class supporting a real time clock. "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="cHwRTC_PCF8583",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_r_t_c___p_c_f8583.html",tooltip="Implementation of the real time clock (RTC) PCF8583. "];
+}

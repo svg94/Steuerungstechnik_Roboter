@@ -1,0 +1,6 @@
+digraph "LPC_ADC_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_ADC_TypeDef\n|+ ADCR\l+ ADGDR\l+ RESERVED0\l+ ADINTEN\l+ ADDR0\l+ ADDR1\l+ ADDR2\l+ ADDR3\l+ ADDR4\l+ ADDR5\l+ ADDR6\l+ ADDR7\l+ ADSTAT\l+ ADTRM\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

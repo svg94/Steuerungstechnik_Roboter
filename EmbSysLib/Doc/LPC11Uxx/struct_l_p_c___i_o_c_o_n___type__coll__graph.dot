@@ -1,0 +1,6 @@
+digraph "LPC_IOCON_Type"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_IOCON_Type\n|+ RESET_PIO0_0\l+ PIO0_1\l+ PIO0_2\l+ PIO0_3\l+ PIO0_4\l+ PIO0_5\l+ PIO0_6\l+ PIO0_7\l+ PIO0_8\l+ PIO0_9\land 46 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

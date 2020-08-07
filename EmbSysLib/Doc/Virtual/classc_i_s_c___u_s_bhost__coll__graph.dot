@@ -1,0 +1,14 @@
+digraph "cISC_USBhost"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{cISC_USBhost\n||+ cISC_USBhost()\l+ update()\l+ writeStream()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
+  Node2 [label="{cISC\n||+ update()\l+ writeStream()\l# cISC()\l# write()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_i_s_c.html",tooltip="ISC transport base class. "];
+  Node3 -> Node2 [color="grey25",fontsize="8",style="solid",label=" +crc" ,arrowhead="odiamond",fontname="Sans"];
+  Node3 [label="{cCRC\n||+ cCRC()\l+ ~cCRC()\l+ operator()()\l+ operator()()\l+ get()\l+ reset()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_c_r_c.html",tooltip="16 bit cyclic redundancy check (CRC) calculation. "];
+  Node4 -> Node2 [color="grey25",fontsize="8",style="solid",label=" +list" ,arrowhead="odiamond",fontname="Sans"];
+  Node4 [label="{cList\n||+ cList()\l+ add()\l+ updateAll()\l+ getFirst()\l+ operator[]()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_list.html",tooltip="Base class for single linked lists. "];
+  Node5 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +usb" ,arrowhead="odiamond",fontname="Sans"];
+  Node5 [label="{cUSB\n||+ cUSB()\l+ open()\l+ read()\l+ read()\l+ write()\l+ write()\l+ close()\l+ isOpen()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_u_s_b.html"];
+}

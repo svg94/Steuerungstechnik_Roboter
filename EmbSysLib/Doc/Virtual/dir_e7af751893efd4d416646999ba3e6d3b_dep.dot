@@ -1,0 +1,13 @@
+digraph "Src/MCU/Virtual/Src" {
+  compound=true
+  node [ fontsize="8", fontname="Sans"];
+  edge [ labelfontsize="8", labelfontname="Sans"];
+  subgraph clusterdir_01bf751b630b8628c473b324a2a9ee3a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Virtual" fontname="Sans", fontsize="8", URL="dir_01bf751b630b8628c473b324a2a9ee3a.html"]
+  dir_e7af751893efd4d416646999ba3e6d3b [shape=box, label="Src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e7af751893efd4d416646999ba3e6d3b.html"];
+  }
+  dir_3109d9b67dd8fcb7c8766337121ddabe [shape=box label="Sys" URL="dir_3109d9b67dd8fcb7c8766337121ddabe.html"];
+  dir_bd6076192d431881978bb9a63bffcd65 [shape=box label="Com" fillcolor="white" style="filled" color="red" URL="dir_bd6076192d431881978bb9a63bffcd65.html"];
+  dir_e7af751893efd4d416646999ba3e6d3b->dir_3109d9b67dd8fcb7c8766337121ddabe [headlabel="6", labeldistance=1.5 headhref="dir_000028_000029.html"];
+  dir_e7af751893efd4d416646999ba3e6d3b->dir_bd6076192d431881978bb9a63bffcd65 [headlabel="11", labeldistance=1.5 headhref="dir_000028_000001.html"];
+}

@@ -1,0 +1,6 @@
+digraph "SYSCFG_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{SYSCFG_TypeDef\n|+ MEMRMP\l+ PMC\l+ EXTICR\l+ RESERVED\l+ CBR\l+ CMPCR\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

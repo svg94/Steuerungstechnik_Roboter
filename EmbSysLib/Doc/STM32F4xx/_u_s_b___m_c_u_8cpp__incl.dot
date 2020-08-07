@@ -1,0 +1,20 @@
+digraph "Src/MCU/STM32F4xx/Src/USB_MCU.cpp"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="Src/MCU/STM32F4xx/Src\l/USB_MCU.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="USB_MCU.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_u_s_b___m_c_u_8h.html"];
+  Node2 -> Node3 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="Com/Hardware/USB/USB.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_com_2_hardware_2_u_s_b_2_u_s_b_8h_source.html"];
+  Node3 -> Node4 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node4 [label="USBdesc.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$_u_s_bdesc_8h.html"];
+  Node3 -> Node5 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node5 [label="USBendpoint.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$_u_s_bendpoint_8h.html"];
+  Node3 -> Node6 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node6 [label="USBctrl.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_u_s_bctrl_8h.html"];
+  Node3 -> Node7 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node7 [label="USBinterf.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$_u_s_binterf_8h.html"];
+  Node3 -> Node8 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node8 [label="USBhardware.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_u_s_bhardware_8h.html"];
+}

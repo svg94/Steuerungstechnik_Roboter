@@ -1,0 +1,11 @@
+digraph "Src/Com/Hardware/Ethernet" {
+  compound=true
+  node [ fontsize="8", fontname="Sans"];
+  edge [ labelfontsize="8", labelfontname="Sans"];
+  subgraph clusterdir_29f4e3bfd8240ce7bca12dff6b06edb8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Hardware" fontname="Sans", fontsize="8", URL="dir_29f4e3bfd8240ce7bca12dff6b06edb8.html"]
+  dir_eb1dc0ba7b88159286aa144a60bf5067 [shape=box, label="Ethernet", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_eb1dc0ba7b88159286aa144a60bf5067.html"];
+  }
+  dir_d7219b513f667d287b827e9ac7157b51 [shape=box label="Net" URL="dir_d7219b513f667d287b827e9ac7157b51.html"];
+  dir_eb1dc0ba7b88159286aa144a60bf5067->dir_d7219b513f667d287b827e9ac7157b51 [headlabel="1", labeldistance=1.5 headhref="dir_000013_000016.html"];
+}

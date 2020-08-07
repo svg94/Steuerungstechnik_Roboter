@@ -1,0 +1,11 @@
+digraph "Node"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{Node\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +i_val" ,arrowhead="odiamond",fontname="Sans"];
+  Node2 [label="{lua_TValue\n|+ TValuefields\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlua___t_value.html"];
+  Node3 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +i_key" ,arrowhead="odiamond",fontname="Sans"];
+  Node3 [label="{TKey\n|+ TValuefields\l+ next\l+ nk\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$union_t_key.html"];
+  Node2 -> Node3 [color="grey25",fontsize="8",style="solid",label=" +tvk" ,arrowhead="odiamond",fontname="Sans"];
+}

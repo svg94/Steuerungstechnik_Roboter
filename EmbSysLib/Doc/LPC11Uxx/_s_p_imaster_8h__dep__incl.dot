@@ -1,0 +1,27 @@
+digraph "Src/Com/Hardware/SPI/SPImaster.h"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="Src/Com/Hardware/SPI\l/SPImaster.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="Src/Com/Hardware/SPI\l/SPImaster.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_s_p_imaster_8cpp.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="Src/lib.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lib_8cpp.html",tooltip="Summary of complete library code. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node4 [label="Src/MCU/LPC11Uxx/Src\l/SPImaster_MCU.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_s_p_imaster___m_c_u_8h.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node5 [label="Src/MCU/LPC11Uxx/MCU.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_c_u_8h_source.html"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node6 [label="Src/lib.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$lib_8h.html",tooltip="Library main include file. "];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node7 [label="Src/Peripheral/Disp\l_DIP204spi.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_disp___d_i_p204spi_8cpp.html"];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node8 [label="Src/Peripheral/Disp\l_SPFD5408Bspi.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_disp___s_p_f_d5408_bspi_8cpp.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node9 [label="Src/Peripheral/Disp\l_DIP204spi.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_disp___d_i_p204spi_8h.html"];
+  Node9 -> Node7 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node10 [label="Src/Peripheral/Disp\l_SPFD5408Bspi.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_disp___s_p_f_d5408_bspi_8h.html"];
+  Node10 -> Node8 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+}

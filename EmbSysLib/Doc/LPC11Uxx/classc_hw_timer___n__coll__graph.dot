@@ -1,0 +1,9 @@
+digraph "cHwTimer_N"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{cHwTimer_N\n||+ cHwTimer_N()\l+ enablePWM()\l+ setPWM()\l+ irq()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
+  Node2 [label="{cHwTimer\n|# cycleTime\l|+ getCycleTime()\l+ add()\l+ enablePWM()\l+ setPWM()\l+ isrHandler()\l# cHwTimer()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_timer.html",tooltip="Abstract class supporting timer hardware. "];
+  Node1 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +timerCT32B0_Ptr\n+timerCT16B0_Ptr\n+timerCT32B1_Ptr\n+timerCT16B1_Ptr" ,arrowhead="odiamond",fontname="Sans"];
+}

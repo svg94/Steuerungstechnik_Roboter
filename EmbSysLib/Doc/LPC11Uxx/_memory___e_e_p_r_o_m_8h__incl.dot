@@ -1,0 +1,8 @@
+digraph "Src/MCU/LPC11Uxx/Src/Memory_EEPROM.h"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="Src/MCU/LPC11Uxx/Src\l/Memory_EEPROM.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="Com/Hardware/Memory\l/Memory.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_memory_8h.html"];
+}

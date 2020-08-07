@@ -1,0 +1,8 @@
+digraph "libusb_bos_descriptor"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{libusb_bos_descriptor\n|+ bLength\l+ bDescriptorType\l+ wTotalLength\l+ bNumDeviceCaps\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +dev_capability" ,arrowhead="odiamond",fontname="Sans"];
+  Node2 [label="{libusb_bos_dev_capability\l_descriptor\n|+ bLength\l+ bDescriptorType\l+ bDevCapabilityType\l+ dev_capability_data\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlibusb__bos__dev__capability__descriptor.html"];
+}

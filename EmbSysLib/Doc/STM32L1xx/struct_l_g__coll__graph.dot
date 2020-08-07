@@ -1,0 +1,47 @@
+digraph "LG"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LG\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +g" ,arrowhead="odiamond",fontname="Sans"];
+  Node2 [label="{global_State\n|+ frealloc\l+ ud\l+ totalbytes\l+ GCdebt\l+ GCmemtrav\l+ GCestimate\l+ seed\l+ currentwhite\l+ gcstate\l+ gckind\l+ gcrunning\l+ gcfinnum\l+ gcpause\l+ gcstepmul\l+ version\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structglobal___state.html"];
+  Node3 -> Node2 [color="grey25",fontsize="8",style="solid",label=" +l_registry" ,arrowhead="odiamond",fontname="Sans"];
+  Node3 [label="{lua_TValue\n|+ TValuefields\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlua___t_value.html"];
+  Node4 -> Node2 [color="grey25",fontsize="8",style="solid",label=" +strt" ,arrowhead="odiamond",fontname="Sans"];
+  Node4 [label="{stringtable\n|+ nuse\l+ size\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structstringtable.html"];
+  Node5 -> Node4 [color="grey25",fontsize="8",style="solid",label=" +hash" ,arrowhead="odiamond",fontname="Sans"];
+  Node5 [label="{TString\n|+ CommonHeader\l+ extra\l+ shrlen\l+ hash\l+ lnglen\l+ u\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_t_string.html"];
+  Node5 -> Node5 [color="grey25",fontsize="8",style="solid",label=" +hnext" ,arrowhead="odiamond",fontname="Sans"];
+  Node5 -> Node2 [color="grey25",fontsize="8",style="solid",label=" +strcache\n+tmname\n+memerrmsg" ,arrowhead="odiamond",fontname="Sans"];
+  Node6 -> Node2 [color="grey25",fontsize="8",style="solid",label=" +mt" ,arrowhead="odiamond",fontname="Sans"];
+  Node6 [label="{Table\n|+ CommonHeader\l+ flags\l+ lsizenode\l+ sizearray\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_table.html"];
+  Node7 -> Node6 [color="grey25",fontsize="8",style="solid",label=" +lastfree\n+node" ,arrowhead="odiamond",fontname="Sans"];
+  Node7 [label="{Node\n||}",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$struct_node.html"];
+  Node3 -> Node7 [color="grey25",fontsize="8",style="solid",label=" +i_val" ,arrowhead="odiamond",fontname="Sans"];
+  Node3 -> Node6 [color="grey25",fontsize="8",style="solid",label=" +array" ,arrowhead="odiamond",fontname="Sans"];
+  Node6 -> Node6 [color="grey25",fontsize="8",style="solid",label=" +metatable" ,arrowhead="odiamond",fontname="Sans"];
+  Node8 -> Node6 [color="grey25",fontsize="8",style="solid",label=" +gclist" ,arrowhead="odiamond",fontname="Sans"];
+  Node8 [label="{GCObject\n|+ CommonHeader\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_g_c_object.html"];
+  Node8 -> Node2 [color="grey25",fontsize="8",style="solid",label=" +weak\n+grayagain\n+finobj\n+tobefnz\n+ephemeron\n+sweepgc\n+allweak\n+gray\n+fixedgc\n+allgc\n..." ,arrowhead="odiamond",fontname="Sans"];
+  Node9 -> Node2 [color="grey25",fontsize="8",style="solid",label=" +twups\n+panic\n+mainthread" ,arrowhead="odiamond",fontname="Sans"];
+  Node9 [label="{lua_State\n|+ CommonHeader\l+ nci\l+ status\l+ oldpc\l+ hook\l+ errfunc\l+ stacksize\l+ basehookcount\l+ hookcount\l+ nny\l+ nCcalls\l+ hookmask\l+ allowhook\l+ parent\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlua___state.html"];
+  Node10 -> Node9 [color="grey25",fontsize="8",style="solid",label=" +openupval" ,arrowhead="odiamond",fontname="Sans"];
+  Node10 [label="{UpVal\n|+ refcount\l+ touched\l+ open\l+ u\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_up_val.html"];
+  Node10 -> Node10 [color="grey25",fontsize="8",style="solid",label=" +next" ,arrowhead="odiamond",fontname="Sans"];
+  Node3 -> Node10 [color="grey25",fontsize="8",style="solid",label=" +value\n+v" ,arrowhead="odiamond",fontname="Sans"];
+  Node3 -> Node9 [color="grey25",fontsize="8",style="solid",label=" +top\n+stack\n+stack_last" ,arrowhead="odiamond",fontname="Sans"];
+  Node11 -> Node9 [color="grey25",fontsize="8",style="solid",label=" +errorJmp" ,arrowhead="odiamond",fontname="Sans"];
+  Node11 [label="{lua_longjmp\n|+ b\l+ status\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlua__longjmp.html"];
+  Node11 -> Node11 [color="grey25",fontsize="8",style="solid",label=" +previous" ,arrowhead="odiamond",fontname="Sans"];
+  Node2 -> Node9 [color="grey25",fontsize="8",style="solid",label=" +l_G" ,arrowhead="odiamond",fontname="Sans"];
+  Node8 -> Node9 [color="grey25",fontsize="8",style="solid",label=" +gclist" ,arrowhead="odiamond",fontname="Sans"];
+  Node9 -> Node9 [color="grey25",fontsize="8",style="solid",label=" +twups" ,arrowhead="odiamond",fontname="Sans"];
+  Node12 -> Node9 [color="grey25",fontsize="8",style="solid",label=" +base_ci\n+ci" ,arrowhead="odiamond",fontname="Sans"];
+  Node12 [label="{CallInfo\n|+ savedpc\l+ l\l+ old_errfunc\l+ ctx\l+ c\l+ u\l+ extra\l+ nresults\l+ callstatus\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_call_info.html"];
+  Node3 -> Node12 [color="grey25",fontsize="8",style="solid",label=" +top\n+base\n+func" ,arrowhead="odiamond",fontname="Sans"];
+  Node9 -> Node12 [color="grey25",fontsize="8",style="solid",label=" +k" ,arrowhead="odiamond",fontname="Sans"];
+  Node12 -> Node12 [color="grey25",fontsize="8",style="solid",label=" +previous\n+next" ,arrowhead="odiamond",fontname="Sans"];
+  Node13 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +l" ,arrowhead="odiamond",fontname="Sans"];
+  Node13 [label="{LX\n|+ extra_\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_l_x.html"];
+  Node9 -> Node13 [color="grey25",fontsize="8",style="solid",label=" +l" ,arrowhead="odiamond",fontname="Sans"];
+}

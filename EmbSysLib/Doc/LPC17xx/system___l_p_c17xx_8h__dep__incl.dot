@@ -1,0 +1,12 @@
+digraph "Src/MCU/LPC17xx/Sys/system_LPC17xx.h"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="Src/MCU/LPC17xx/Sys\l/system_LPC17xx.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="Src/MCU/LPC17xx/Sys\l/LPC17xx.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_l_p_c17xx_8h.html",tooltip="Include controller specific header files. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="Src/MCU/LPC17xx/MCU.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_m_c_u_8h_source.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node4 [label="Src/lib.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$lib_8h.html",tooltip="Library main include file. "];
+}

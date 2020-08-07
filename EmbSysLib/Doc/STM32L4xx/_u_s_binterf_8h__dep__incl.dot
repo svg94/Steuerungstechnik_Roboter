@@ -1,0 +1,24 @@
+digraph "Src/Com/Hardware/USB/USBinterf.h"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="Src/Com/Hardware/USB\l/USBinterf.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="Src/Com/Hardware/USB\l/USB.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_com_2_hardware_2_u_s_b_2_u_s_b_8h_source.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="Src/Com/Hardware/USB\l/USBhardware.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_u_s_bhardware_8cpp.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node4 [label="Src/lib.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lib_8cpp.html",tooltip="Summary of complete library code. "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node5 [label="Src/MCU/STM32L4xx/Src\l/USB_MCU.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_u_s_b___m_c_u_8h.html"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node6 [label="Src/MCU/STM32L4xx/Src\l/USB_MCU.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_u_s_b___m_c_u_8cpp.html"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node7 [label="Src/Module/USB/USBinterf\lClassVSC.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_u_s_binterf_class_v_s_c_8h.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node8 [label="Src/Module/ISC/ISC\l_USBdevice.h",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$_i_s_c___u_s_bdevice_8h_source.html"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node9 [label="Src/Module/USB/USBinterf\lClassVSC.cpp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$_u_s_binterf_class_v_s_c_8cpp.html"];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node10 [label="Src/Module/USB.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_module_2_u_s_b_8h.html",tooltip="Collection of USB related classes. "];
+}

@@ -1,0 +1,6 @@
+digraph "LPC_I2C_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{LPC_I2C_TypeDef\n|+ I2CONSET\l+ I2STAT\l+ I2DAT\l+ I2ADR0\l+ I2SCLH\l+ I2SCLL\l+ I2CONCLR\l+ MMCTRL\l+ I2ADR1\l+ I2ADR2\land 6 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

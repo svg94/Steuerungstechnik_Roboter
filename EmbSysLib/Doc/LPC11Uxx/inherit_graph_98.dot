@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir="LR";
+  Node1 [label="cRTOS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_r_t_o_s.html",tooltip="Interface to the real time operating system (RTOS) "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="cRTOS_RR\< NUM_OF_TASK \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_r_t_o_s___r_r.html",tooltip="Base class for round robin scheduler. "];
+}

@@ -1,0 +1,8 @@
+digraph "cDevMemoryFlash&lt; T &gt;"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{cDevMemoryFlash\< T \>\n||+ cDevMemoryFlash()\l+ isValid()\l+ store()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +data" ,arrowhead="odiamond",fontname="Sans"];
+  Node2 [label="{T\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

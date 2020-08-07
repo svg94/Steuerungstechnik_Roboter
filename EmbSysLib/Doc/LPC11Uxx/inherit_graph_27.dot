@@ -1,0 +1,15 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  rankdir="LR";
+  Node1 [label="cHwDAC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_d_a_c.html",tooltip="Abstract class supporting the digital to analog converter (DAC) "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node2 [label="cHwDAC_MAX521",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_d_a_c___m_a_x521.html",tooltip="Digital-to-analog converter MAX521. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node3 [label="cHwDAC_MAX5308",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_d_a_c___m_a_x5308.html",tooltip="Digital-to-analog converter MAX5308. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node4 [label="cHwDAC_MCP4441",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_d_a_c___m_c_p4441.html",tooltip="Digital potentiometer MCP4441. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
+  Node5 [label="cHwDAC_MCP4922",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_d_a_c___m_c_p4922.html",tooltip="Digital-to-analog converter MCP4922. "];
+}

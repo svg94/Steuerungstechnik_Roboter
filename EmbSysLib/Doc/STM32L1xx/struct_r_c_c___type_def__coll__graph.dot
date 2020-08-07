@@ -1,0 +1,6 @@
+digraph "RCC_TypeDef"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{RCC_TypeDef\n|+ CR\l+ ICSCR\l+ CFGR\l+ CIR\l+ AHBRSTR\l+ APB2RSTR\l+ APB1RSTR\l+ AHBENR\l+ APB2ENR\l+ APB1ENR\l+ AHBLPENR\l+ APB2LPENR\l+ APB1LPENR\l+ CSR\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

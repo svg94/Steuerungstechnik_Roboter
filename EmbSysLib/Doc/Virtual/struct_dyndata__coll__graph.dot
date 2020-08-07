@@ -1,0 +1,15 @@
+digraph "Dyndata"
+{
+  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
+  node [fontname="Sans",fontsize="8",shape=record];
+  Node1 [label="{Dyndata\n|+ n\l+ size\l+ actvar\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +label\n+gt" ,arrowhead="odiamond",fontname="Sans"];
+  Node2 [label="{Labellist\n|+ n\l+ size\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_labellist.html"];
+  Node3 -> Node2 [color="grey25",fontsize="8",style="solid",label=" +arr" ,arrowhead="odiamond",fontname="Sans"];
+  Node3 [label="{Labeldesc\n|+ pc\l+ line\l+ nactvar\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_labeldesc.html"];
+  Node4 -> Node3 [color="grey25",fontsize="8",style="solid",label=" +name" ,arrowhead="odiamond",fontname="Sans"];
+  Node4 [label="{TString\n|+ CommonHeader\l+ extra\l+ shrlen\l+ hash\l+ lnglen\l+ u\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_t_string.html"];
+  Node4 -> Node4 [color="grey25",fontsize="8",style="solid",label=" +hnext" ,arrowhead="odiamond",fontname="Sans"];
+  Node5 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +arr" ,arrowhead="odiamond",fontname="Sans"];
+  Node5 [label="{Vardesc\n|+ idx\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_vardesc.html"];
+}
