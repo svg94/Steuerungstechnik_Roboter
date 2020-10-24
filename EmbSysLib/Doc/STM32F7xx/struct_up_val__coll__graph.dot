@@ -1,9 +1,0 @@
-digraph "UpVal"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{UpVal\n|+ refcount\l+ touched\l+ open\l+ u\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node1 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +next" ,arrowhead="odiamond",fontname="Sans"];
-  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +value\n+v" ,arrowhead="odiamond",fontname="Sans"];
-  Node2 [label="{lua_TValue\n|+ TValuefields\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlua___t_value.html"];
-}

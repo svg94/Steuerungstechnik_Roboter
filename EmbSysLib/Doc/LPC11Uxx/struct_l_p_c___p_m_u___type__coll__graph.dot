@@ -1,6 +1,0 @@
-digraph "LPC_PMU_Type"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{LPC_PMU_Type\n|+ PCON\l+ GPREG\l+ GPREG0\l+ GPREG1\l+ GPREG2\l+ GPREG3\l+ @37\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

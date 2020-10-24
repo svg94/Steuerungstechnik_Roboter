@@ -1,6 +1,0 @@
-digraph "cDevControlPointer::cData"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{cDevControlPointer\l::cData\n|+ posX\l+ posY\l+ delta\l+ flags\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

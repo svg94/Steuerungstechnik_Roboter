@@ -1,6 +1,0 @@
-digraph "MDIOS_TypeDef"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{MDIOS_TypeDef\n|+ CR\l+ WRFR\l+ CWRFR\l+ RDFR\l+ CRDFR\l+ SR\l+ CLRFR\l+ RESERVED0\l+ DINR0\l+ DINR1\land 62 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

@@ -1,6 +1,0 @@
-digraph "LPC_GPIOINT_TypeDef"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{LPC_GPIOINT_TypeDef\n|+ IntStatus\l+ IO0IntStatR\l+ IO0IntStatF\l+ IO0IntClr\l+ IO0IntEnR\l+ IO0IntEnF\l+ RESERVED0\l+ IO2IntStatR\l+ IO2IntStatF\l+ IO2IntClr\l+ IO2IntEnR\l+ IO2IntEnF\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

@@ -1,9 +1,0 @@
-digraph "ETH_PTP_time_sign"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  rankdir=LR;
-  Node1 [label="ETH_PTP_Flags",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___e_t_h___p_t_p___flags.html"];
-  Node0 [label="ETH_PTP_time_sign",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
-}

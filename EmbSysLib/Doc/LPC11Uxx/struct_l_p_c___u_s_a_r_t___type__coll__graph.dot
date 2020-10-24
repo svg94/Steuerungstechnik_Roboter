@@ -1,6 +1,0 @@
-digraph "LPC_USART_Type"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{LPC_USART_Type\n|+ DLL\l+ THR\l+ RBR\l+ @19\l+ IER\l+ DLM\l+ @21\l+ FCR\l+ IIR\l+ @23\land 18 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

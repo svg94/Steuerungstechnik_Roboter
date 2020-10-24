@@ -1,6 +1,0 @@
-digraph "libusb_ss_usb_device_capability_descriptor"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{libusb_ss_usb_device\l_capability_descriptor\n|+ bLength\l+ bDescriptorType\l+ bDevCapabilityType\l+ bmAttributes\l+ wSpeedSupported\l+ bFunctionalitySupport\l+ bU1DevExitLat\l+ bU2DevExitLat\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

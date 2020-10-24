@@ -1,6 +1,0 @@
-digraph "libusb_ss_endpoint_companion_descriptor"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{libusb_ss_endpoint\l_companion_descriptor\n|+ bLength\l+ bDescriptorType\l+ bMaxBurst\l+ bmAttributes\l+ wBytesPerInterval\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

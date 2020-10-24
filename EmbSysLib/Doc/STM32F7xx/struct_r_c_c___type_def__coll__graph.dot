@@ -1,6 +1,0 @@
-digraph "RCC_TypeDef"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{RCC_TypeDef\n|+ CR\l+ PLLCFGR\l+ CFGR\l+ CIR\l+ AHB1RSTR\l+ AHB2RSTR\l+ AHB3RSTR\l+ RESERVED0\l+ APB1RSTR\l+ APB2RSTR\land 23 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

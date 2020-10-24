@@ -1,9 +1,0 @@
-digraph "cRTOS_RR&lt; NUM_OF_TASK &gt;"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{cRTOS_RR\< NUM_OF_TASK \>\n||+ cRTOS_RR()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
-  Node2 [label="{cRTOS\n||+ cRTOS()\l+ schedule()\l# Start()\l# Pause()\l# Stop()\l# add()\l# del()\l# get()\l# scheduler()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_r_t_o_s.html",tooltip="Interface to the real time operating system (RTOS) "];
-  Node2 -> Node2 [color="grey25",fontsize="8",style="solid",label=" +ptr" ,arrowhead="odiamond",fontname="Sans"];
-}

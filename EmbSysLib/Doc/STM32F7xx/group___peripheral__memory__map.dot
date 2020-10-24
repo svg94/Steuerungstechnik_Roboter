@@ -1,9 +1,0 @@
-digraph "Peripheral_memory_map"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  rankdir=LR;
-  Node0 [label="Peripheral_memory_map",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node1 [label="CMSIS_Device",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___c_m_s_i_s___device.html"];
-  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
-}

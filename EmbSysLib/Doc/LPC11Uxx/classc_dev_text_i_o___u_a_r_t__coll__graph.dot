@@ -1,8 +1,0 @@
-digraph "cDevTextIO_UART"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{cDevTextIO_UART\n||+ cDevTextIO_UART()\l# set()\l# get()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
-  Node2 [label="{cDevTextIO\n||+ getString()\l+ printf()\l# cDevTextIO()\l# set()\l# get()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_dev_text_i_o.html",tooltip="Abstract class supporting textual IO. "];
-}

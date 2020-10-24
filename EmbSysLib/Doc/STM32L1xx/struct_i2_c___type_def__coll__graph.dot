@@ -1,6 +1,0 @@
-digraph "I2C_TypeDef"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{I2C_TypeDef\n|+ CR1\l+ RESERVED0\l+ CR2\l+ RESERVED1\l+ OAR1\l+ RESERVED2\l+ OAR2\l+ RESERVED3\l+ DR\l+ RESERVED4\land 8 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

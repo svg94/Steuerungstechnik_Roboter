@@ -1,5 +1,0 @@
-var struct_a_d_c___common___type_def =
-[
-    [ "CSR", "struct_a_d_c___common___type_def.html#ac38e24f600f9e134a54a0c43b976a4f4", null ],
-    [ "CCR", "struct_a_d_c___common___type_def.html#aee6d4af7571a1bad2fec9e7b53733277", null ]
-];

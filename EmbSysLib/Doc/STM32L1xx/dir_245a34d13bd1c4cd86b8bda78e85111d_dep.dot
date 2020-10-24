@@ -1,9 +1,0 @@
-digraph "Src/Module/LUA" {
-  compound=true
-  node [ fontsize="8", fontname="Sans"];
-  edge [ labelfontsize="8", labelfontname="Sans"];
-  subgraph clusterdir_a66f30b86b8bcc429b3175f700e00737 {
-    graph [ bgcolor="#ddddee", pencolor="black", label="Module" fontname="Sans", fontsize="8", URL="dir_a66f30b86b8bcc429b3175f700e00737.html"]
-  dir_245a34d13bd1c4cd86b8bda78e85111d [shape=box, label="LUA", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_245a34d13bd1c4cd86b8bda78e85111d.html"];
-  }
-}

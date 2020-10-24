@@ -1,6 +1,0 @@
-digraph "libusb_device_descriptor"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{libusb_device_descriptor\n|+ bLength\l+ bDescriptorType\l+ bcdUSB\l+ bDeviceClass\l+ bDeviceSubClass\l+ bDeviceProtocol\l+ bMaxPacketSize0\l+ idVendor\l+ idProduct\l+ bcdDevice\l+ iManufacturer\l+ iProduct\l+ iSerialNumber\l+ bNumConfigurations\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

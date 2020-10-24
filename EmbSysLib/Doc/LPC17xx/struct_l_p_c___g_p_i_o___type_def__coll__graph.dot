@@ -1,6 +1,0 @@
-digraph "LPC_GPIO_TypeDef"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{LPC_GPIO_TypeDef\n|+ FIODIR\l+ FIODIRL\l+ FIODIRH\l+ FIODIR0\l+ FIODIR1\l+ FIODIR2\l+ FIODIR3\l+ @18\l+ RESERVED0\l+ FIOMASK\land 31 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

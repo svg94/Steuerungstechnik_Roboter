@@ -1,6 +1,0 @@
-digraph "AES_TypeDef"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{AES_TypeDef\n|+ CR\l+ SR\l+ DINR\l+ DOUTR\l+ KEYR0\l+ KEYR1\l+ KEYR2\l+ KEYR3\l+ IVR0\l+ IVR1\l+ IVR2\l+ IVR3\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

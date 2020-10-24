@@ -1,6 +1,0 @@
-digraph "stack_frame_t"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{stack_frame_t\n|+ r4\l+ r5\l+ r6\l+ r7\l+ r8\l+ r9\l+ r10\l+ r11\l+ sw\l+ lr_pc\land 10 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

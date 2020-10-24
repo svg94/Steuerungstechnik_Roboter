@@ -1,8 +1,0 @@
-digraph "Src/Com/Hardware/RTC/RTC.cpp"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="Src/Com/Hardware/RTC\l/RTC.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
-  Node2 [label="Src/lib.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lib_8cpp.html",tooltip="Summary of complete library code. "];
-}

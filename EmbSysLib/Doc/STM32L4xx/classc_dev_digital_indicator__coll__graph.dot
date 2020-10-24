@@ -1,8 +1,0 @@
-digraph "cDevDigitalIndicator"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{cDevDigitalIndicator\n||+ cDevDigitalIndicator()\l+ set()\l+ clr()\l+ trigger()\l+ blink()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
-  Node2 [label="{cList::Item\n||+ Item()\l+ getNext()\l+ getPrev()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_list_1_1_item.html",tooltip="Base class for list items. "];
-}

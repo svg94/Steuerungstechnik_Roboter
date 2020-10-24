@@ -1,7 +1,0 @@
-digraph "Graphical Class Hierarchy"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  rankdir="LR";
-  Node1 [label="LPC_GPIO_GROUP_INTx_Type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_l_p_c___g_p_i_o___g_r_o_u_p___i_n_tx___type.html",tooltip="Product name title=UM10462 Chapter title=LPC11U1x GPIO Modification date=3/17/2011 Major revision=0 M..."];
-}

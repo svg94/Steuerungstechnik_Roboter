@@ -1,9 +1,0 @@
-digraph "NXP"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  rankdir=LR;
-  Node0 [label="NXP",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node1 [label="LPC11Uxx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group___l_p_c11_uxx.html"];
-  Node0->Node1 [shape=plaintext, dir="back", style="solid"];
-}

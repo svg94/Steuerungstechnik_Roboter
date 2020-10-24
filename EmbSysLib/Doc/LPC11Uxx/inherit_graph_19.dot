@@ -1,9 +1,0 @@
-digraph "Graphical Class Hierarchy"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  rankdir="LR";
-  Node1 [label="cDevTextIO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_dev_text_i_o.html",tooltip="Abstract class supporting textual IO. "];
-  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="8",style="solid",fontname="Sans"];
-  Node2 [label="cDevTextIO_UART",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_dev_text_i_o___u_a_r_t.html",tooltip="TextIO device using cHwUART. "];
-}

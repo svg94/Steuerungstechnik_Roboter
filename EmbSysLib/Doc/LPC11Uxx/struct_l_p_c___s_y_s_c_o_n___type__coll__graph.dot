@@ -1,6 +1,0 @@
-digraph "LPC_SYSCON_Type"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{LPC_SYSCON_Type\n|+ SYSMEMREMAP\l+ PRESETCTRL\l+ SYSPLLCTRL\l+ SYSPLLSTAT\l+ USBPLLCTRL\l+ USBPLLSTAT\l+ RESERVED0\l+ SYSOSCCTRL\l+ WDTOSCCTRL\l+ RESERVED1\land 46 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

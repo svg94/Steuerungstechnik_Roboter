@@ -1,8 +1,0 @@
-digraph "cHwTouch_STMPE811i2c"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{cHwTouch_STMPE811i2c\n||+ cHwTouch_STMPE811i2c()\l+ update()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
-  Node2 [label="{cHwTouch\n|# xPos\l# yPos\l# isTouchedFlag\l# width\l# height\l|+ update()\l+ getPosX()\l+ getPosY()\l+ isTouched()\l# cHwTouch()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_touch.html",tooltip="Abstract class supporting touch sensor of graphic displays. "];
-}

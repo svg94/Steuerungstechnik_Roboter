@@ -1,6 +1,0 @@
-digraph "TIM_TypeDef"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{TIM_TypeDef\n|+ CR1\l+ RESERVED0\l+ CR2\l+ RESERVED1\l+ SMCR\l+ RESERVED2\l+ DIER\l+ RESERVED3\l+ SR\l+ RESERVED4\land 24 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

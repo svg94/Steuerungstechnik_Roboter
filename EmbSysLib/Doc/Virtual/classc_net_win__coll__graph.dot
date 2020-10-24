@@ -1,6 +1,0 @@
-digraph "cNetWin"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{cNetWin\n|+ buf\l+ bufLen\l+ bufIdx\l+ timeTic\l+ bufSize\l|+ cNetWin()\l+ update()\l+ getIP()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

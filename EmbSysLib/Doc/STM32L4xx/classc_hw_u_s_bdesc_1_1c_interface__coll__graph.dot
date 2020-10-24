@@ -1,6 +1,0 @@
-digraph "cHwUSBdesc::cInterface"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{cHwUSBdesc::cInterface\n|+ bLength\l+ bDescriptorType\l+ bInterfaceNumber\l+ bAlternateSetting\l+ bNumEndpoints\l+ bInterfaceClass\l+ bInterfaceSubClass\l+ bInterfaceProtocol\l+ iInterface\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

@@ -1,7 +1,0 @@
-digraph "lua_longjmp"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{lua_longjmp\n|+ b\l+ status\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node1 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +previous" ,arrowhead="odiamond",fontname="Sans"];
-}

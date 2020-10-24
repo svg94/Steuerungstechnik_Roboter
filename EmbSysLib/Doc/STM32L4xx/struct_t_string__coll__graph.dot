@@ -1,7 +1,0 @@
-digraph "TString"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{TString\n|+ CommonHeader\l+ extra\l+ shrlen\l+ hash\l+ lnglen\l+ u\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node1 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +hnext" ,arrowhead="odiamond",fontname="Sans"];
-}

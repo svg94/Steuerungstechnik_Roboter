@@ -1,8 +1,0 @@
-digraph "cHwDisp_Terminal"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{cHwDisp_Terminal\n|+ NUM_OF_LINE\l+ NUM_OF_COLUM\l|+ cHwDisp_Terminal()\l+ clear()\l+ refresh()\l+ gotoTextPos()\l+ putChar()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="8",style="solid",arrowtail="onormal",fontname="Sans"];
-  Node2 [label="{cHwDisplay\n|# numberOfLines\l# numberOfColumns\l|+ clear()\l+ refresh()\l+ gotoTextPos()\l+ putChar()\l+ getNumberOfLines()\l+ getNumberOfColumns()\l# cHwDisplay()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classc_hw_display.html",tooltip="Abtract class supporting display hardware. "];
-}

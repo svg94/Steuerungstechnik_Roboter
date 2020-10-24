@@ -1,6 +1,0 @@
-digraph "LPC_EMAC_TypeDef"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{LPC_EMAC_TypeDef\n|+ MAC1\l+ MAC2\l+ IPGT\l+ IPGR\l+ CLRT\l+ MAXF\l+ SUPP\l+ TEST\l+ MCFG\l+ MCMD\land 44 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

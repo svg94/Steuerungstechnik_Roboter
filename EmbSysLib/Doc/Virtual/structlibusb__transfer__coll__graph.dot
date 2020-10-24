@@ -1,8 +1,0 @@
-digraph "libusb_transfer"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{libusb_transfer\n|+ dev_handle\l+ flags\l+ endpoint\l+ type\l+ timeout\l+ status\l+ length\l+ actual_length\l+ callback\l+ user_data\l+ buffer\l+ num_iso_packets\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node2 -> Node1 [color="grey25",fontsize="8",style="solid",label=" +iso_packet_desc" ,arrowhead="odiamond",fontname="Sans"];
-  Node2 [label="{libusb_iso_packet_descriptor\n|+ length\l+ actual_length\l+ status\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structlibusb__iso__packet__descriptor.html"];
-}

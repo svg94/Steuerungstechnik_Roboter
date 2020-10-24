@@ -1,9 +1,0 @@
-digraph "Src/Module/USB" {
-  compound=true
-  node [ fontsize="8", fontname="Sans"];
-  edge [ labelfontsize="8", labelfontname="Sans"];
-  subgraph clusterdir_a66f30b86b8bcc429b3175f700e00737 {
-    graph [ bgcolor="#ddddee", pencolor="black", label="Module" fontname="Sans", fontsize="8", URL="dir_a66f30b86b8bcc429b3175f700e00737.html"]
-  dir_c8c18cefddd188a6f36ad239e38dfc0a [shape=box, label="USB", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_c8c18cefddd188a6f36ad239e38dfc0a.html"];
-  }
-}

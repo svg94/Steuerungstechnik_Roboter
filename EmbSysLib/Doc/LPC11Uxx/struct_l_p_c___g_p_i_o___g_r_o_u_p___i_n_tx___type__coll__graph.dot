@@ -1,6 +1,0 @@
-digraph "LPC_GPIO_GROUP_INTx_Type"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{LPC_GPIO_GROUP_INTx_Type\n|+ CTRL\l+ RESERVED0\l+ PORT_POL\l+ RESERVED1\l+ PORT_ENA\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

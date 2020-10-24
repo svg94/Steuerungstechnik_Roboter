@@ -1,4 +1,0 @@
-var group___e_t_h___m_a_c__addresses =
-[
-    [ "ETH_MAC_addresses_filter_SA_DA_filed_of_received_frames", "group___e_t_h___m_a_c__addresses__filter___s_a___d_a__filed__of__received__frames.html", "group___e_t_h___m_a_c__addresses__filter___s_a___d_a__filed__of__received__frames" ]
-];

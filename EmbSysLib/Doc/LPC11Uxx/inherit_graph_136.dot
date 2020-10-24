@@ -1,7 +1,0 @@
-digraph "Graphical Class Hierarchy"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  rankdir="LR";
-  Node1 [label="LPC_SYSCON_Type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_l_p_c___s_y_s_c_o_n___type.html",tooltip="Product name title=UM10462 Chapter title=LPC11U1x System control block Modification date=3/16/2011 Ma..."];
-}

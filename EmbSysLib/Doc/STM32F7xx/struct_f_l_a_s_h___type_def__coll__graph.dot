@@ -1,6 +1,0 @@
-digraph "FLASH_TypeDef"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  Node1 [label="{FLASH_TypeDef\n|+ ACR\l+ KEYR\l+ OPTKEYR\l+ SR\l+ CR\l+ OPTCR\l+ OPTCR1\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-}

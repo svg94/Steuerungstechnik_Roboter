@@ -1,7 +1,0 @@
-digraph "Graphical Class Hierarchy"
-{
-  edge [fontname="Sans",fontsize="8",labelfontname="Sans",labelfontsize="8"];
-  node [fontname="Sans",fontsize="8",shape=record];
-  rankdir="LR";
-  Node1 [label="LPC_CTxxBx_Type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct_l_p_c___c_txx_bx___type.html",tooltip="Product name title=UM10462 Chapter title=LPC11U1x 32-bitcounter/timers CT32B0/1 Modification date=3/1..."];
-}
